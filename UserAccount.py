@@ -2,7 +2,7 @@ class UserAccount :
     """
     A class that models a user account for mega-social-media website, GuessMySecret
     """
-
+#
     def __init__(self,username, password, secret):
         """
         Initialize the UserAccount object:
