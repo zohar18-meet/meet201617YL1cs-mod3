@@ -13,7 +13,7 @@ class UserAccount :
         self.username=username
         #Complete the __init__ method
 
-    def print_password(self,password_attempt):
+    def print_secret(self,password_attempt):
         """
         Checks user input, password_attempt - if this matches the user's
         password, then the user's secret is printed to the screen.
