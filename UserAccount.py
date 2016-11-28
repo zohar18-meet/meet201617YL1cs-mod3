@@ -8,7 +8,7 @@ class UserAccount :
         Initialize the UserAccount object:
         :param username: user name (string)
         :param password: password to gain access to account (string)
-        :param secret: user's secret, accessible only with passworld (string)
+        :param secret: user's secret, accessible only with password (string)
         """
         self.username=username
         #Complete the __init__ method
